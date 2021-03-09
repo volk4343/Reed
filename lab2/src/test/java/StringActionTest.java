@@ -5,7 +5,7 @@ import org.junit.Test;
 public class StringActionTest {
 
     private StringAction str;
-    pom.xml
+
     @Before
     public void setup(){
         str = new StringAction();
@@ -20,7 +20,7 @@ public class StringActionTest {
     @Test
     public void add() {
         String temp1 = "Hello", temp2 = "World";
-        Assert.assertEquals("HelloWorld", str.Connect(temp1, temp2));
+        Assert.assertEquals("Hello World", str.Connect(temp1, temp2));
     }
 
     @Test
